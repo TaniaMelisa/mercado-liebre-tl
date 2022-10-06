@@ -1,0 +1,283 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+   font-family: 'Roboto', sans-serif; 
+   font-size: 12px;
+   margin: 0%;
+   background-color: #ebebeb;
+   font-weight: 400;
+}  
+ h3{
+    font-size: 24px;
+}
+.main-header{
+   background-color: #EAC926;
+   padding: 20px;
+   position: fixed;
+   top: 0;
+   z-index: 100;
+   width: 100%;
+    }
+    
+
+.logo{
+    width: 50%;
+    margin:20px;
+}
+
+.search {
+    margin: 20px 0;
+}
+.search input{
+    color: #666;
+}
+.search i {
+    background-color: #fff;
+    padding: 2px;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+.copy-header{
+    font-weight: 400;
+    text-align: center;
+}
+.burger-menu{
+    background-color: #03264C; 
+    color: white;
+    display: block;
+    max-width: 50px;
+    border-radius: 8px;
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+ }
+ .main-navbar{
+    display: none;
+}
+
+.main-navbar a {
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 17px;
+}
+
+.main-navbar ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+.creat-form{
+    padding: 20px 15px;
+    margin-top: 200px;
+
+}
+.control-form{
+    margin-bottom: 15px;
+}
+
+.control-form label {
+    margin-bottom: 5px;
+    font-style: italic;
+    display: block;
+}
+
+.control{
+    width: 100%;
+    padding: 8px;
+}
+
+.button-form{
+    background: #39b54a;
+    border: none;
+    font-size: 20px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+main{
+   /*display: block;*/
+    margin: 0 auto;
+    width: 90%;
+  
+  } 
+
+
+.price{
+    font-size: 18px;
+    width: 30%;
+    
+ }
+
+ .discount {
+    font-size: 16px;
+    color: green;
+    width: 70%;
+ }
+ 
+
+ h4.description {
+    font-size: 16px;
+    margin: 0%;
+    padding: 15px;
+  
+    width: 100%;
+ }
+
+
+
+ 
+ .fa-solid.fa-truck{
+    font-weight: 900;
+    padding: 10px;
+    border: solid 1px grey;
+    border-radius: 50%;
+    line-height: 15px;
+    color: green;
+    text-align:right;
+
+}
+.main-article{
+     margin-bottom: 10px;
+     background-color: #ffffff;
+     text-align: center;
+     position: relative;
+        
+ }
+ .product-img{
+    width: 80%; }
+
+.product{
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    text-align: left;
+    position: relative;
+}
+
+
+
+.detail-price-discount{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    color: #666;
+    padding: 30px 0;
+    margin: 20px 0;
+
+}
+footer i{
+    font-size: 2em; 
+      margin-bottom: 10px;
+      color: blue;
+}
+
+.final{
+    text-align: left;
+    margin-left: 20px;
+}
+
+main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    }   
+@media(min-width: 361px){
+    
+    main section div.products{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    main section div.products article{
+        width: 45%;
+    }
+   
+
+}
+@media(min-width: 768px){
+    .main-header-top-bar{
+        display: flex;
+        justify-content: space-between;
+    }
+    .copy-header{
+        max-width: 350px;
+        text-align: right;
+    }
+    .burger-menu{
+        display: none;
+    }
+    .main-navbar{
+    display: flex;
+    justify-content: space-between;
+    }
+    .main-navbar ul{
+    display: flex;
+    }
+    .main-navbar li{
+    margin: 0 5px;
+    }
+    main section div.products article{
+        width: 22%;
+    }
+    main section article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100)
+    
+}
+@media (min-width: 1200px){
+    .logo{
+         width: 250px;
+    }
+    .main-header-top-bar, .main-navbar{
+         max-width: 1200px;
+         margin: auto;
+    }
+    .main-header-top-bar{
+         align-items: center;
+    }
+    .copy-header{
+         margin: 0px;
+         max-width: none;
+         font-size: 18px;
+         font-weight: 400;
+    }
+    .main-navbar{
+         margin-top: 40px;
+    }
+    .main-navbar li{
+         margin: 0 10px;
+     }  
+     .main-navbar a {
+         font-size: 19px;;
+     } 
+     main section article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100)
+}
