@@ -3,6 +3,8 @@ const path = require ("path");
 
 const app = express()
 const publicPath= path.resolve(__dirname, "./public")
+
+console.log(publicPath)
 app.use(express.static(publicPath))
 
 
