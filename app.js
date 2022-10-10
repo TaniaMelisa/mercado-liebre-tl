@@ -12,8 +12,8 @@ const PORT = process.env.PORT || 3000
 
 app.listen(PORT, () => console.log('Server on'));
 
-app.get("/", (req, res)=>{
-    res.sendFile(path.resolve(__dirname, "./views/home.html"))
+app.get('/', (req, res)=>{
+    res.sendFile(path.resolve(__dirname, './views/home.html'))
 })
 
 app.get('/register', (req,res)=> {
