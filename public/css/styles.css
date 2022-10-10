@@ -292,13 +292,11 @@ main section article i{
     .main-navbar li{
     margin: 0 5px;
     }
-    div.main-article{
-        width: 22%;
-    }
-    main section article{
+    
+    .main-article{
         box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
-        width: 22%;
         transition: box-shadow 0.3s ease-in-out;
+        width: 45%;
      }
 
      main section article:hover{
@@ -351,7 +349,7 @@ main section article i{
      .main-navbar a {
          font-size: 19px;;
      } 
-     main section article{
+     .main-article{
         box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
         width: 22%;
         
